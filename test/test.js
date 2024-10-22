@@ -7,7 +7,11 @@ describe('Fibonacci function', () => {
   });
 
 
-it('should return 1 for fibonacci(1)', () => {
-  assert.equal(fibonacci(1), 1);
-   });
+  it('should return 1 for fibonacci(1)', () => {
+    assert.equal(fibonacci(1), 1);
+    });
+
+   it('should return 1 for fibonacci(2)', () => {
+    assert.equal(fibonacci(2), 1);
+  });
 });
